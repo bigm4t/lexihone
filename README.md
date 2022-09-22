@@ -1,7 +1,7 @@
 # Lexihone
 An app to hone your vocabulary.
 
-Designed for German leaners but easily adaptable to other languages.
+Designed for German learners but easily adaptable to other languages.
 
 ## Description
 Words are imported from the .csv files in ./data and chosen at random according to weight in "Score".
@@ -15,4 +15,5 @@ _python lexihone.py -fIn "file1" "file2" ..._
 
 ## Requirements
 python3, pandas, pygame, pydub, gtts
+
 Audio feautures require an internet connection.
