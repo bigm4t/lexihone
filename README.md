@@ -8,7 +8,7 @@ Words are imported from the .csv files in ./data and chosen at random according 
 
 "Target (plural)" column is optional.
 
-By default all files in ./data are imported. To select a subset of files run
+All files in ./data are imported by default. To select a subset of files run
 _python lexihone.py -fIn "file1" "file2" ..._
 
 "Score" is updated automatically.
