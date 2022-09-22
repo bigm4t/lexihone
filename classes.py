@@ -150,7 +150,7 @@ class UI:
         self.sng_sound_but = Button(self.root, text="Play",command=self.sng_sound_action, font=font, fg=f_color, bg=bg_color, width=10, state="disabled")
         self.sng_sound_but.grid(row = 4, column=2, padx=20, pady=5)
 
-        self.spacer = Label(self.root, text="",width=20)
+        self.spacer = Label(self.root, text="",width=20, bg=bg_color)
         self.spacer.grid(row=4, column=3)
 
         self.plr_hint_but = Button(self.root, text="Hint",command=self.plr_hint_action, font=font, fg=f_color, width=10,bg=bg_color)

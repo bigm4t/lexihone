@@ -14,4 +14,5 @@ _python lexihone.py -fIn "file1" "file2" ..._
 "Score" is updated automatically.
 
 ## Requirements
+python3, pandas, pygame, pydub, gtts
 Audio feautures require an internet connection.
